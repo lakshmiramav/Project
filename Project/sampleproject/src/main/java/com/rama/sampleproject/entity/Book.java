@@ -21,10 +21,10 @@ public class Book {
     private int bookRating;
     
 
-   /*@ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "courseid", referencedColumnName ="courseId");
 
     @ManyToOne
     @JoinTable(name="book_author")
-    private List<Author> author;*/
+    private List<Author> author;
 }
